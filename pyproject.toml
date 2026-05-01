@@ -1,7 +1,7 @@
 [project]
 name = "google-drive-prospector"
 version = "0.1.0"
-description = "Add your description here"
+description = "A tool for syncing Google Drive files to the Gold Mine."
 readme = "README.md"
 authors = [
     { name = "TinasheMTapera", email = "tinashemtapera@gmail.com" }

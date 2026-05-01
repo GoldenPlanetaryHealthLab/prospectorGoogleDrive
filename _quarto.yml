@@ -1,0 +1,7 @@
+project:
+  title: "Google Drive Rclone Prospector"
+  output-dir: "user_guide"
+  render:
+    - "notebooks/*"
+    - "!great-docs/**"
+    - "!*.md"

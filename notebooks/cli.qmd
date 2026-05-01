@@ -1,0 +1,168 @@
+---
+title: "Defining the Google Drive Rclone Prospector"
+filters:
+  - sorting-hat
+  - ripper
+extensions:
+  sorting-hat:
+    keep:
+      - python
+  ripper:
+    include-yaml: true
+    output-name: "cli"
+    output-dir: "../src/google_drive_prospector"
+format: gfm
+---
+
+This package is a simple wrapper around the `rclone` command line tool 
+to help sync the Golden Lab Google Drive to FASRC. It simply calls
+`rclone` under the hood, while managing configuration and logs.
+
+The original script that ran the sync was written in bash, but
+I thought it would be wise to create a Python wrapper that
+may or may not be extensible in the future.
+
+```bash
+#!/bin/bash
+
+REMOTE="csph-googledrive:2. Projects"
+DESTINATION="/n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone"
+
+rclone lsf -R "$REMOTE" --dirs-only | grep -E '/[0-9]+\. Datasets/$' | while IFS= read -r dataset_path; do
+    # Remove trailing slash
+    clean_path="${dataset_path%/}"
+
+    # Make destination directory reflect remote structure
+    dest_path="$DESTINATION/$clean_path"
+
+    echo "Copying: $REMOTE/$clean_path -> $dest_path"
+
+    # Perform the copy
+    rclone copy "$REMOTE/$clean_path" "$dest_path" --create-empty-src-dirs --progress
+done
+```
+
+This is a pretty straightforward function, so the Python wrapper will be pretty 
+simple as well. The main goal is to run this script periodically using
+a `scrontab` job, and keep logs of the sync process.
+
+This package uses notebook-driven-development to create modules
+from a notebook (this notebook, to be specific). The code is written
+in Quarto notebook cells, and then extracted into a Python module using the
+Quarto extensions `sorting-hat` and `ripper`. In this way, we can keep the code and 
+documentation together in a single notebook, while still producing a clean Python 
+module for use in our projects. This affords us the flexibility to easily update 
+the code and documentation in one place, and then extract it into a module for use 
+in our projects. Documentation is built with `great-docs`, which allows us
+to extract documentation from docstrings in the code.
+
+## Imports and Libraries
+
+The functionality is pretty straightforward, using `argparse` for command line 
+argument parsing, `subprocess` for running the `rclone` commands, and `shutil` to 
+check for the presence of `rclone`. We also use `re` for regular expression 
+matching to find the dataset directories.
+
+```{python}
+#| sorting-hat: keep
+from __future__ import annotations
+
+import argparse
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+```
+
+```{python}
+#| sorting-hat: keep
+from __future__ import annotations
+
+import argparse
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+REMOTE = "csph-googledrive:2. Projects"
+DESTINATION = Path("/n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone")
+DATASET_PATTERN = re.compile(r"/[0-9]+\. Datasets/$")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        prog="google-drive-prospector",
+        description="Sync dataset folders from Google Drive into the Goldmine."
+    )
+    parser.add_argument("command", choices=["sync"])
+    parser.add_argument("--dry-run", action="store_true")
+    return parser.parse_args()
+
+
+def ensure_rclone() -> None:
+    if shutil.which("rclone") is None:
+        print("Error: rclone not found in PATH.", file=sys.stderr)
+        raise SystemExit(2)
+
+
+def list_dataset_dirs() -> list[str]:
+    result = subprocess.run(
+        ["rclone", "lsf", "-R", REMOTE, "--dirs-only"],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if result.returncode != 0:
+        print(result.stderr, file=sys.stderr)
+        raise SystemExit(result.returncode)
+
+    return [
+        line.rstrip("/")
+        for line in result.stdout.splitlines()
+        if DATASET_PATTERN.search(line)
+    ]
+
+
+def sync(dry_run: bool = False) -> int:
+    ensure_rclone()
+    dataset_dirs = list_dataset_dirs()
+
+    if not dataset_dirs:
+        print("No dataset directories found.")
+        return 0
+
+    failures = 0
+    for dataset_path in dataset_dirs:
+        dest_path = DESTINATION / dataset_path
+        cmd = [
+            "rclone",
+            "copy",
+            f"{REMOTE}/{dataset_path}",
+            str(dest_path),
+            "--create-empty-src-dirs",
+            "--progress",
+        ]
+        if dry_run:
+            cmd.append("--dry-run")
+
+        print(f"Copying: {REMOTE}/{dataset_path} -> {dest_path}")
+        result = subprocess.run(cmd, check=False)
+        if result.returncode != 0:
+            failures += 1
+            print(f"Failed: {dataset_path}", file=sys.stderr)
+
+    return 1 if failures else 0
+
+
+def main() -> int:
+    args = parse_args()
+    if args.command == "sync":
+        return sync(dry_run=args.dry_run)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+```
