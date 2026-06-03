@@ -1,0 +1,2 @@
+[2026-05-01 08:57:13,240][google_drive_prospector.cli][INFO] - Starting sync: csph-googledrive:2. Projects -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone
+[2026-05-01 08:57:13,283][google_drive_prospector.cli][INFO] - rclone is available.

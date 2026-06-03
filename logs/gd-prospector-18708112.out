@@ -1,0 +1,653 @@
+Running Google Drive Prospector...
+[2026-06-02 23:33:08,588][google_drive_prospector.cli][INFO] - Starting sync: csph-googledrive:2. Projects -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone
+[2026-06-02 23:33:08,605][google_drive_prospector.cli][INFO] - rclone is available.
+[2026-06-02 23:37:52,188][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Fisheries and Food Security/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Fisheries and Food Security/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.2s
+[2026-06-02 23:37:53,658][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Global Nutrition/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Global Nutrition/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 5
+Elapsed time:         0.2s
+[2026-06-02 23:37:54,947][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Madagascar/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Climate-Smart Public Health - Madagascar/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 80
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                19 / 19, 100%, Listed 188
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                51 / 51, 100%, Listed 325
+Transferred:            0 / 4, 0%
+Elapsed time:         1.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.dbf: transferring
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.prj: transferring
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: transferring
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shx: transferringTransferred:   	 1009.972 KiB / 1009.972 KiB, 100%, 0 B/s, ETA -
+Checks:                71 / 71, 100%, Listed 421
+Transferred:            2 / 6, 33%
+Elapsed time:         2.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.dbf:100% /1003.006Ki, 0/s, -
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: transferring
+ * Ecoregions data/ecoreg…reprocessed/README.txt: transferring
+ * Ecoregions data/ecoreg…shed_ecoregion_geo.rds: transferringTransferred:   	   16.984 MiB / 232.771 MiB, 7%, 504.983 KiB/s, ETA 7m17s
+Checks:               113 / 113, 100%, Listed 550
+Transferred:            4 / 6, 67%
+Elapsed time:         2.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp:  6% /231.783Mi, 0/s, -
+ * Ecoregions data/ecoreg…shed_ecoregion_geo.rds: transferringTransferred:   	   33.984 MiB / 232.771 MiB, 15%, 504.983 KiB/s, ETA 6m43s
+Checks:               198 / 198, 100%, Listed 822
+Transferred:            4 / 6, 67%
+Elapsed time:         3.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 14% /231.783Mi, 0/s, -
+ * Ecoregions data/ecoreg…shed_ecoregion_geo.rds: transferringTransferred:   	   59.088 MiB / 250.875 MiB, 24%, 11.328 MiB/s, ETA 16s
+Checks:               283 / 283, 100%, Listed 1146
+Transferred:            4 / 6, 67%
+Elapsed time:         3.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 17% /231.783Mi, 33.991Mi/s, 
+ * Ecoregions data/ecoreg…shed_ecoregion_geo.rds:100% /18.103Mi, 0/s, -
+2026/06/02 23:37:59 NOTICE: Air quality/AirQo sensors manual data/ Airqo Ambinanitelo/20230920.CSV: Duplicate object found in source - ignoring
+Transferred:   	   73.088 MiB / 250.875 MiB, 29%, 11.328 MiB/s, ETA 15s
+Checks:               321 / 321, 100%, Listed 1457
+Transferred:            5 / 6, 83%
+Elapsed time:         3.9s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 23% /231.783Mi, 33.991Mi/s, Transferred:   	   73.088 MiB / 250.875 MiB, 29%, 11.328 MiB/s, ETA 15s
+Checks:               388 / 388, 100%, Listed 1630
+Transferred:            5 / 6, 83%
+Elapsed time:         4.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 23% /231.783Mi, 33.991Mi/s, Transferred:   	   87.088 MiB / 250.875 MiB, 35%, 18.272 MiB/s, ETA 8s
+Checks:               514 / 514, 100%, Listed 1886
+Transferred:            5 / 6, 83%
+Elapsed time:         4.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 29% /231.783Mi, 26.996Mi/s, Transferred:   	  102.650 MiB / 250.875 MiB, 41%, 20.530 MiB/s, ETA 7s
+Checks:               698 / 698, 100%, Listed 2735
+Transferred:            5 / 6, 83%
+Elapsed time:         5.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 36% /231.783Mi, 26.996Mi/s, Transferred:   	  122.088 MiB / 250.875 MiB, 49%, 20.530 MiB/s, ETA 6s
+Checks:               718 / 718, 100%, Listed 2842
+Transferred:            5 / 6, 83%
+Elapsed time:         5.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 44% /231.783Mi, 28.487Mi/s, Transferred:   	  139.088 MiB / 250.875 MiB, 55%, 23.181 MiB/s, ETA 4s
+Checks:               785 / 785, 100%, Listed 3435
+Transferred:            5 / 6, 83%
+Elapsed time:         6.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 51% /231.783Mi, 28.487Mi/s, Transferred:   	  157.088 MiB / 250.875 MiB, 63%, 23.181 MiB/s, ETA 4s
+Checks:              1479 / 1479, 100%, Listed 4182
+Transferred:            5 / 6, 83%
+Elapsed time:         6.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 59% /231.783Mi, 30.248Mi/s, Transferred:   	  176.088 MiB / 250.875 MiB, 70%, 23.181 MiB/s, ETA 3s
+Checks:              1737 / 1737, 100%, Listed 4468
+Transferred:            5 / 6, 83%
+Elapsed time:         7.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 67% /231.783Mi, 30.248Mi/s, Transferred:   	  185.463 MiB / 250.875 MiB, 74%, 25.155 MiB/s, ETA 2s
+Checks:              1746 / 1746, 100%, Listed 4478
+Transferred:            5 / 6, 83%
+Elapsed time:         7.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 71% /231.783Mi, 31.598Mi/s, Transferred:   	  199.088 MiB / 250.875 MiB, 79%, 24.886 MiB/s, ETA 2s
+Checks:              1748 / 1748, 100%, Listed 4512
+Transferred:            5 / 6, 83%
+Elapsed time:         8.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 77% /231.783Mi, 31.598Mi/s, Transferred:   	  219.088 MiB / 250.875 MiB, 87%, 24.886 MiB/s, ETA 1s
+Checks:              1843 / 1843, 100%, Listed 4903
+Transferred:            5 / 14, 36%
+Elapsed time:         8.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 86% /231.783Mi, 30.098Mi/s, 
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  245.088 MiB / 250.875 MiB, 98%, 24.886 MiB/s, ETA 0s
+Checks:              1891 / 1891, 100%, Listed 4953
+Transferred:            5 / 14, 36%
+Elapsed time:         9.0s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp: 97% /231.783Mi, 30.098Mi/s, 
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.875 MiB / 250.875 MiB, 100%, 27.232 MiB/s, ETA 0s
+Checks:              1891 / 1891, 100%, Listed 4953
+Transferred:            5 / 14, 36%
+Elapsed time:         9.5s
+Transferring:
+ * Ecoregions data/Ecoreg…nal/Ecoregions2017.shp:100% /231.783Mi, 32.284Mi/s, 
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.875 MiB / 250.875 MiB, 100%, 27.232 MiB/s, ETA 0s
+Checks:              1893 / 1893, 100%, Listed 4963
+Transferred:            6 / 14, 43%
+Elapsed time:        10.0s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/06/02 23:38:06 NOTICE: Health Data/National clinic data/Clean/diagnosis_files/file25.feather: Duplicate object found in source - ignoring
+Transferred:   	  250.875 MiB / 250.875 MiB, 100%, 25.087 MiB/s, ETA 0s
+Checks:              1908 / 1925, 99%, Listed 5060
+Transferred:            6 / 14, 43%
+Elapsed time:        10.3s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.875 MiB / 250.875 MiB, 100%, 25.087 MiB/s, ETA 0s
+Checks:              1964 / 1964, 100%, Listed 5104
+Transferred:            6 / 14, 43%
+Elapsed time:        10.5s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.895 MiB / 250.895 MiB, 100%, 22.809 MiB/s, ETA 0s
+Checks:              2195 / 2195, 100%, Listed 5452
+Transferred:            8 / 15, 53%
+Elapsed time:        11.0s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.942 MiB / 250.942 MiB, 100%, 22.809 MiB/s, ETA 0s
+Checks:              2195 / 2195, 100%, Listed 5452
+Transferred:           12 / 17, 71%
+Elapsed time:        11.5s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.984 MiB / 250.984 MiB, 100%, 22.809 MiB/s, ETA 0s
+Checks:              2198 / 2198, 100%, Listed 5460
+Transferred:           16 / 19, 84%
+Elapsed time:        12.0s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.984 MiB / 250.984 MiB, 100%, 20.915 MiB/s, ETA 0s
+Checks:              2203 / 2203, 100%, Listed 5473
+Transferred:           16 / 19, 84%
+Elapsed time:        12.5s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.984 MiB / 250.984 MiB, 100%, 20.915 MiB/s, ETA 0s
+Checks:              2321 / 2321, 100%, Listed 5765
+Transferred:           16 / 19, 84%
+Elapsed time:        13.0s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  250.984 MiB / 250.984 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2339 / 2339, 100%, Listed 5787
+Transferred:           16 / 19, 84%
+Elapsed time:        13.5s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2342 / 2342, 100%, Listed 5800
+Transferred:           22 / 22, 100%
+Elapsed time:        14.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2352 / 2352, 100%, Listed 5821
+Transferred:           22 / 22, 100%
+Elapsed time:        14.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2442 / 2442, 100%, Listed 5997
+Transferred:           22 / 22, 100%
+Elapsed time:        15.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2505 / 2505, 100%, Listed 6091
+Transferred:           22 / 22, 100%
+Elapsed time:        15.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2505 / 2505, 100%, Listed 6091
+Transferred:           22 / 22, 100%
+Elapsed time:        16.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2505 / 2505, 100%, Listed 6091
+Transferred:           22 / 22, 100%
+Elapsed time:        16.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2556 / 2556, 100%, Listed 6215
+Transferred:           22 / 22, 100%
+Elapsed time:        17.0s
+2026/06/02 23:38:13 NOTICE: Health Data/National clinic data/Clean/old files/diagnosis_dictionary_translated.xlsx: Duplicate object found in source - ignoring
+Transferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2680 / 2682, 100%, Listed 6433
+Transferred:           22 / 22, 100%
+Elapsed time:        17.3sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2698 / 2698, 100%, Listed 6476
+Transferred:           22 / 22, 100%
+Elapsed time:        17.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2707 / 2707, 100%, Listed 6490
+Transferred:           22 / 22, 100%
+Elapsed time:        18.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2712 / 2712, 100%, Listed 6498
+Transferred:           22 / 22, 100%
+Elapsed time:        18.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2721 / 2721, 100%, Listed 6518
+Transferred:           22 / 22, 100%
+Elapsed time:        19.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2768 / 2768, 100%, Listed 6630
+Transferred:           22 / 22, 100%
+Elapsed time:        19.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2777 / 2777, 100%, Listed 6642
+Transferred:           22 / 22, 100%
+Elapsed time:        20.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2783 / 2783, 100%, Listed 6657
+Transferred:           22 / 22, 100%
+Elapsed time:        20.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2827 / 2827, 100%, Listed 6755
+Transferred:           22 / 22, 100%
+Elapsed time:        21.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2832 / 2832, 100%, Listed 6772
+Transferred:           22 / 22, 100%
+Elapsed time:        21.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2833 / 2833, 100%, Listed 6775
+Transferred:           22 / 22, 100%
+Elapsed time:        22.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2843 / 2843, 100%, Listed 6798
+Transferred:           22 / 22, 100%
+Elapsed time:        22.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2875 / 2875, 100%, Listed 6875
+Transferred:           22 / 22, 100%
+Elapsed time:        23.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2875 / 2875, 100%, Listed 6875
+Transferred:           22 / 22, 100%
+Elapsed time:        23.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2880 / 2880, 100%, Listed 6884
+Transferred:           22 / 22, 100%
+Elapsed time:        24.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2908 / 2908, 100%, Listed 6950
+Transferred:           22 / 22, 100%
+Elapsed time:        24.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2939 / 2939, 100%, Listed 7024
+Transferred:           22 / 22, 100%
+Elapsed time:        25.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2940 / 2940, 100%, Listed 7030
+Transferred:           22 / 22, 100%
+Elapsed time:        25.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2950 / 2950, 100%, Listed 7046
+Transferred:           22 / 22, 100%
+Elapsed time:        26.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              2993 / 2993, 100%, Listed 7194
+Transferred:           22 / 22, 100%
+Elapsed time:        26.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3049 / 3049, 100%, Listed 7284
+Transferred:           22 / 22, 100%
+Elapsed time:        27.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3049 / 3049, 100%, Listed 7284
+Transferred:           22 / 22, 100%
+Elapsed time:        27.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3091 / 3091, 100%, Listed 7490
+Transferred:           22 / 22, 100%
+Elapsed time:        28.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3252 / 3252, 100%, Listed 7750
+Transferred:           22 / 22, 100%
+Elapsed time:        28.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3253 / 3253, 100%, Listed 7760
+Transferred:           22 / 22, 100%
+Elapsed time:        29.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3254 / 3254, 100%, Listed 7788
+Transferred:           22 / 22, 100%
+Elapsed time:        29.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3295 / 3295, 100%, Listed 7883
+Transferred:           22 / 22, 100%
+Elapsed time:        30.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3319 / 3319, 100%, Listed 7944
+Transferred:           22 / 22, 100%
+Elapsed time:        30.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3319 / 3319, 100%, Listed 7944
+Transferred:           22 / 22, 100%
+Elapsed time:        31.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3321 / 3321, 100%, Listed 7954
+Transferred:           22 / 22, 100%
+Elapsed time:        31.5s
+2026/06/02 23:38:27 NOTICE: Health Data/National clinic data/Raw/Support Data/Disease mapping across waves/From Kevin/Big Dictionary Revised_with_wave.xlsx: Duplicate object found in source - ignoring
+Transferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3335 / 3337, 100%, Listed 8005
+Transferred:           22 / 22, 100%
+Elapsed time:        31.7sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3357 / 3357, 100%, Listed 8092
+Transferred:           22 / 22, 100%
+Elapsed time:        32.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3360 / 3360, 100%, Listed 8098
+Transferred:           22 / 22, 100%
+Elapsed time:        32.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3360 / 3360, 100%, Listed 8100
+Transferred:           22 / 22, 100%
+Elapsed time:        33.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3438 / 3438, 100%, Listed 8233
+Transferred:           22 / 22, 100%
+Elapsed time:        33.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3478 / 3478, 100%, Listed 8310
+Transferred:           22 / 22, 100%
+Elapsed time:        34.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3478 / 3478, 100%, Listed 8310
+Transferred:           22 / 22, 100%
+Elapsed time:        34.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3478 / 3478, 100%, Listed 8313
+Transferred:           22 / 22, 100%
+Elapsed time:        35.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3515 / 3515, 100%, Listed 8405
+Transferred:           22 / 22, 100%
+Elapsed time:        35.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3516 / 3516, 100%, Listed 8407
+Transferred:           22 / 22, 100%
+Elapsed time:        36.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3517 / 3517, 100%, Listed 8410
+Transferred:           22 / 22, 100%
+Elapsed time:        36.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3519 / 3519, 100%, Listed 8414
+Transferred:           22 / 22, 100%
+Elapsed time:        37.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3551 / 3551, 100%, Listed 8547
+Transferred:           22 / 22, 100%
+Elapsed time:        37.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3552 / 3552, 100%, Listed 8548
+Transferred:           22 / 22, 100%
+Elapsed time:        38.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3552 / 3552, 100%, Listed 8560
+Transferred:           22 / 22, 100%
+Elapsed time:        38.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3578 / 3578, 100%, Listed 8639
+Transferred:           22 / 22, 100%
+Elapsed time:        39.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3592 / 3592, 100%, Listed 8715
+Transferred:           22 / 22, 100%
+Elapsed time:        39.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3592 / 3592, 100%, Listed 8717
+Transferred:           22 / 22, 100%
+Elapsed time:        40.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3592 / 3592, 100%, Listed 8717
+Transferred:           22 / 22, 100%
+Elapsed time:        40.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3625 / 3625, 100%, Listed 8788
+Transferred:           22 / 22, 100%
+Elapsed time:        41.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3631 / 3631, 100%, Listed 8839
+Transferred:           22 / 22, 100%
+Elapsed time:        41.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3632 / 3632, 100%, Listed 8842
+Transferred:           22 / 22, 100%
+Elapsed time:        42.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3651 / 3651, 100%, Listed 8862
+Transferred:           22 / 22, 100%
+Elapsed time:        42.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3669 / 3669, 100%, Listed 8946
+Transferred:           22 / 22, 100%
+Elapsed time:        43.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3701 / 3701, 100%, Listed 8981
+Transferred:           22 / 22, 100%
+Elapsed time:        43.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3702 / 3702, 100%, Listed 8999
+Transferred:           22 / 22, 100%
+Elapsed time:        44.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3704 / 3704, 100%, Listed 9003
+Transferred:           22 / 22, 100%
+Elapsed time:        44.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3744 / 3744, 100%, Listed 9117
+Transferred:           22 / 22, 100%
+Elapsed time:        45.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3747 / 3747, 100%, Listed 9125
+Transferred:           22 / 22, 100%
+Elapsed time:        45.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3749 / 3749, 100%, Listed 9129
+Transferred:           22 / 22, 100%
+Elapsed time:        46.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3751 / 3751, 100%, Listed 9133
+Transferred:           22 / 22, 100%
+Elapsed time:        46.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3770 / 3770, 100%, Listed 9182
+Transferred:           22 / 22, 100%
+Elapsed time:        47.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3771 / 3771, 100%, Listed 9186
+Transferred:           22 / 22, 100%
+Elapsed time:        47.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3788 / 3788, 100%, Listed 9207
+Transferred:           22 / 22, 100%
+Elapsed time:        48.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3798 / 3798, 100%, Listed 9231
+Transferred:           22 / 22, 100%
+Elapsed time:        48.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3800 / 3800, 100%, Listed 9235
+Transferred:           22 / 22, 100%
+Elapsed time:        49.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3800 / 3800, 100%, Listed 9238
+Transferred:           22 / 22, 100%
+Elapsed time:        49.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3816 / 3816, 100%, Listed 9278
+Transferred:           22 / 22, 100%
+Elapsed time:        50.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3817 / 3817, 100%, Listed 9281
+Transferred:           22 / 22, 100%
+Elapsed time:        50.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3824 / 3824, 100%, Listed 9290
+Transferred:           22 / 22, 100%
+Elapsed time:        51.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3834 / 3834, 100%, Listed 9335
+Transferred:           22 / 22, 100%
+Elapsed time:        51.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3841 / 3841, 100%, Listed 9367
+Transferred:           22 / 22, 100%
+Elapsed time:        52.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3862 / 3862, 100%, Listed 9389
+Transferred:           22 / 22, 100%
+Elapsed time:        52.4sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3887 / 3887, 100%, Listed 9423
+Transferred:           22 / 22, 100%
+Elapsed time:        53.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3893 / 3893, 100%, Listed 9449
+Transferred:           22 / 22, 100%
+Elapsed time:        53.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3893 / 3893, 100%, Listed 9449
+Transferred:           22 / 22, 100%
+Elapsed time:        54.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3894 / 3894, 100%, Listed 9471
+Transferred:           22 / 22, 100%
+Elapsed time:        54.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3934 / 3934, 100%, Listed 9529
+Transferred:           22 / 22, 100%
+Elapsed time:        55.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3936 / 3936, 100%, Listed 9554
+Transferred:           22 / 22, 100%
+Elapsed time:        55.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3937 / 3937, 100%, Listed 9568
+Transferred:           22 / 22, 100%
+Elapsed time:        56.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3940 / 3940, 100%, Listed 9593
+Transferred:           22 / 22, 100%
+Elapsed time:        56.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              3997 / 3997, 100%, Listed 9677
+Transferred:           22 / 22, 100%
+Elapsed time:        57.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4041 / 4041, 100%, Listed 9757
+Transferred:           22 / 22, 100%
+Elapsed time:        57.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4045 / 4045, 100%, Listed 9783
+Transferred:           22 / 22, 100%
+Elapsed time:        58.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4047 / 4047, 100%, Listed 9788
+Transferred:           22 / 22, 100%
+Elapsed time:        58.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4090 / 4090, 100%, Listed 9878
+Transferred:           22 / 22, 100%
+Elapsed time:        59.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4092 / 4092, 100%, Listed 9882
+Transferred:           22 / 22, 100%
+Elapsed time:        59.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4112 / 4112, 100%, Listed 9903
+Transferred:           22 / 22, 100%
+Elapsed time:       1m0.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4124 / 4124, 100%, Listed 9936
+Transferred:           22 / 22, 100%
+Elapsed time:       1m0.4sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4137 / 4137, 100%, Listed 9989
+Transferred:           22 / 22, 100%
+Elapsed time:       1m1.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4138 / 4138, 100%, Listed 9993
+Transferred:           22 / 22, 100%
+Elapsed time:       1m1.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4160 / 4160, 100%, Listed 10025
+Transferred:           22 / 22, 100%
+Elapsed time:       1m2.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4195 / 4195, 100%, Listed 10119
+Transferred:           22 / 22, 100%
+Elapsed time:       1m2.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4216 / 4216, 100%, Listed 10141
+Transferred:           22 / 22, 100%
+Elapsed time:       1m3.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4237 / 4237, 100%, Listed 10163
+Transferred:           22 / 22, 100%
+Elapsed time:       1m3.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4260 / 4260, 100%, Listed 10201
+Transferred:           22 / 22, 100%
+Elapsed time:       1m4.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4263 / 4263, 100%, Listed 10208
+Transferred:           22 / 22, 100%
+Elapsed time:       1m4.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4264 / 4264, 100%, Listed 10210
+Transferred:           22 / 22, 100%
+Elapsed time:       1m5.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4274 / 4274, 100%, Listed 10229
+Transferred:           22 / 22, 100%
+Elapsed time:       1m5.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4281 / 4281, 100%, Listed 10251
+Transferred:           22 / 22, 100%
+Elapsed time:       1m6.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4281 / 4281, 100%, Listed 10251
+Transferred:           22 / 22, 100%
+Elapsed time:       1m6.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4282 / 4282, 100%, Listed 10256
+Transferred:           22 / 22, 100%
+Elapsed time:       1m7.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4318 / 4318, 100%, Listed 10321
+Transferred:           22 / 22, 100%
+Elapsed time:       1m7.4sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4319 / 4319, 100%, Listed 10329
+Transferred:           22 / 22, 100%
+Elapsed time:       1m8.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4320 / 4320, 100%, Listed 10331
+Transferred:           22 / 22, 100%
+Elapsed time:       1m8.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4323 / 4323, 100%, Listed 10336
+Transferred:           22 / 22, 100%
+Elapsed time:       1m9.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4355 / 4355, 100%, Listed 10394
+Transferred:           22 / 22, 100%
+Elapsed time:       1m9.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4358 / 4358, 100%, Listed 10398
+Transferred:           22 / 22, 100%
+Elapsed time:      1m10.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4358 / 4358, 100%, Listed 10399
+Transferred:           22 / 22, 100%
+Elapsed time:      1m10.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4367 / 4367, 100%, Listed 10443
+Transferred:           22 / 22, 100%
+Elapsed time:      1m11.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4405 / 4405, 100%, Listed 10500
+Transferred:           22 / 22, 100%
+Elapsed time:      1m11.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4407 / 4407, 100%, Listed 10504
+Transferred:           22 / 22, 100%
+Elapsed time:      1m12.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4410 / 4410, 100%, Listed 10511
+Transferred:           22 / 22, 100%
+Elapsed time:      1m12.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4412 / 4412, 100%, Listed 10516
+Transferred:           22 / 22, 100%
+Elapsed time:      1m13.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4440 / 4440, 100%, Listed 10575
+Transferred:           22 / 22, 100%
+Elapsed time:      1m13.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4443 / 4443, 100%, Listed 10581
+Transferred:           22 / 22, 100%
+Elapsed time:      1m14.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4445 / 4445, 100%, Listed 10586
+Transferred:           22 / 22, 100%
+Elapsed time:      1m14.5sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4454 / 4455, 100%, Listed 10602
+Transferred:           22 / 22, 100%
+Elapsed time:      1m15.0sTransferred:   	  251.043 MiB / 251.043 MiB, 100%, 19.306 MiB/s, ETA 0s
+Checks:              4469 / 4469, 100%, Listed 10617
+Transferred:           22 / 22, 100%
+Elapsed time:      1m15.2s
+[2026-06-02 23:39:11,205][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Kiribati/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Kiribati/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 4
+Elapsed time:         0.2s
+[2026-06-02 23:39:12,493][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Aquatic Food Composition Database/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Aquatic Food Composition Database/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 6
+Elapsed time:         0.5sTransferred:   	   17.699 KiB / 17.699 KiB, 100%, 0 B/s, ETA -
+Checks:                 4 / 4, 100%, Listed 10
+Transferred:            1 / 1, 100%
+Elapsed time:         0.9s
+[2026-06-02 23:39:14,433][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/ResearchDataManagement/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/ResearchDataManagement/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%, Listed 9
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 9 / 9, 100%, Listed 28
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+ * Qualtrics_Data_Intake/…ay 20, 2026_14.57.xlsx: transferringTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 9 / 9, 100%, Listed 28
+Transferred:            0 / 1, 0%
+Elapsed time:         1.5s
+Transferring:
+ * Qualtrics_Data_Intake/…ay 20, 2026_14.57.xlsx: transferringTransferred:   	   10.209 KiB / 10.209 KiB, 100%, 0 B/s, ETA -
+Checks:                 9 / 9, 100%, Listed 28
+Transferred:            2 / 2, 100%
+Elapsed time:         1.8s
+[2026-06-02 23:39:17,472][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Nepal/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Climate-Smart Public Health - Nepal/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 21
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                39 / 39, 100%, Listed 139
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+ * Ecoregions/muncipality…st_pro_ecoZone(in).csv: transferringTransferred:   	   52.761 KiB / 52.761 KiB, 100%, 0 B/s, ETA -
+Checks:               101 / 101, 100%, Listed 268
+Transferred:            1 / 1, 100%
+Elapsed time:         1.5sTransferred:   	   52.761 KiB / 52.761 KiB, 100%, 0 B/s, ETA -
+Checks:               136 / 136, 100%, Listed 343
+Transferred:            1 / 1, 100%
+Elapsed time:         2.0sTransferred:   	   52.761 KiB / 52.761 KiB, 100%, 0 B/s, ETA -
+Checks:               149 / 149, 100%, Listed 356
+Transferred:            1 / 1, 100%
+Elapsed time:         2.0s
+[2026-06-02 23:39:20,506][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/CLTN/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/CLTN/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 10
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                11 / 11, 100%, Listed 32
+Elapsed time:         0.8s
+[2026-06-02 23:39:22,516][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/SW Artificial Reef/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/SW Artificial Reef/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 4
+Elapsed time:         0.2s
+[2026-06-02 23:39:23,990][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/RIMA/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/RIMA/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 3 / 3, 100%, Listed 31
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                22 / 22, 100%, Listed 50
+Elapsed time:         0.7s
+[2026-06-02 23:39:26,191][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/Chicken Project/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/Chicken Project/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 28
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                26 / 26, 100%, Listed 54
+Elapsed time:         0.7s
+[2026-06-02 23:39:28,299][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 43
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                37 / 37, 100%, Listed 90
+Elapsed time:         0.8s
+[2026-06-02 23:39:30,488][google_drive_prospector.cli][INFO] - Sync complete in 381.90 seconds

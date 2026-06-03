@@ -2,6 +2,21 @@
 title: "Google Drive Rclone Prospector"
 ---
 
-## Quarto
+## Sync Google Drive to FASRC
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This prospector is designed to sync the Golden Lab Google Drive to FASRC using `rclone`. 
+It is implemented as a Python wrapper around the `rclone` command line tool, which allows 
+us to manage configuration and logs more easily. The original script was written in bash, 
+but this Python wrapper provides a more extensible and maintainable solution for our 
+syncing needs.
+
+The `scrontab` for this sync is set to run every day at 2am:
+
+```shell
+0 2 * * * /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/sync.sh >> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/sync.log 2>&1
+```
+
+Since this is an automated tool, we include logging to track the sync
+and re-render the documentation to see the last successful logs.
+
+{<< include("notebooks/parse_logs.qmd") >>}

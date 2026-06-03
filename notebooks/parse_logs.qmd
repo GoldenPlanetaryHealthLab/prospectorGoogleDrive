@@ -1,0 +1,10 @@
+---
+title: "Sync Logs"
+format: gfm
+---
+
+The last successful sync was:
+
+```{python}
+
+```

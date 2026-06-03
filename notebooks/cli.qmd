@@ -65,51 +65,85 @@ matching to find the dataset directories.
 
 ```{python}
 #| sorting-hat: keep
-from __future__ import annotations
 
+from pathlib import Path
+from omegaconf import DictConfig, OmegaConf
+
+import hydra
+import time
+import logging
 import argparse
 import re
 import shutil
 import subprocess
 import sys
-from pathlib import Path
 ```
+
+## Hydra Config
+
+We do want to ensure that this module is modular, so we have put our
+hard coded variables in a `config.yaml` that we read in with Hydra.
+
+```{python}
+#| sorting-hat: remove
+
+from hydra import compose, initialize
+from omegaconf import DictConfig, OmegaConf
+```
+
+To read in the config, we will use Hydra's `@hydra.main` decorator on our main function, 
+which will allow us to access the configuration as a `DictConfig` object. This will make 
+it easy to access our configuration variables throughout the code.
+
+```{python}
+#| sorting-hat: remove
+with initialize(version_base=None, config_path="src/google_drive_prospector/conf"):
+    cfg = compose(config_name="config")
+
+print(OmegaConf.to_yaml(cfg))
+```
+
+Looks good to me. We'll also be using Hydra logging behind the scenes.
+Now we can move to the functionality of the module.
 
 ```{python}
 #| sorting-hat: keep
-from __future__ import annotations
+log = logging.getLogger(__name__)
+```
 
-import argparse
-import re
-import shutil
-import subprocess
-import sys
-from pathlib import Path
+## RClone Functionality
 
-REMOTE = "csph-googledrive:2. Projects"
-DESTINATION = Path("/n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone")
-DATASET_PATTERN = re.compile(r"/[0-9]+\. Datasets/$")
+We'll add a quick checker to make sure `rclone` is available:
 
+```{python}
+#| sorting-hat: remove
+if shutil.which("rclone") is None:
+    print("Error: rclone not found in PATH.")
+else:
+    print("rclone is available.")
+```
 
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        prog="google-drive-prospector",
-        description="Sync dataset folders from Google Drive into the Goldmine."
-    )
-    parser.add_argument("command", choices=["sync"])
-    parser.add_argument("--dry-run", action="store_true")
-    return parser.parse_args()
+Awesome!
 
+```{python}
+#| sorting-hat: keep
 
 def ensure_rclone() -> None:
     if shutil.which("rclone") is None:
-        print("Error: rclone not found in PATH.", file=sys.stderr)
+        log.error("Error: rclone not found in PATH.")
         raise SystemExit(2)
+    else:
+        log.info("rclone is available.")
+```
 
+Now the basic functionality of `rclone` is implemented as a subcommand. We
+can see it in action running the `lsf` command:
 
-def list_dataset_dirs() -> list[str]:
+```{python}
+#| sorting-hat: keep
+def list_dataset_dirs(remote: str, dataset_pattern: re.Pattern) -> list[str]:
     result = subprocess.run(
-        ["rclone", "lsf", "-R", REMOTE, "--dirs-only"],
+        ["rclone", "lsf", "-R", remote, "--dirs-only"],
         text=True,
         capture_output=True,
         check=False,
@@ -121,48 +155,126 @@ def list_dataset_dirs() -> list[str]:
     return [
         line.rstrip("/")
         for line in result.stdout.splitlines()
-        if DATASET_PATTERN.search(line)
+        if dataset_pattern.search(line)
     ]
+```
 
+```{python}
+#| sorting-hat: remove
+#| eval: false
+remote = cfg.remote
+dataset_pattern = re.compile(r"/[0-9]+\. Datasets/$")
+list_dataset_dirs(remote, dataset_pattern)
+```
 
-def sync(dry_run: bool = False) -> int:
+Lastly, we set up the sync function:
+
+```{python}
+#| sorting-hat: keep
+
+def sync(
+    remote: str,
+    destination: str,
+    dataset_pattern: re.Pattern[str],
+    dry_run: bool = False,
+    ) -> int:
+    """
+    Sync dataset directories from a remote location to a local destination.
+
+    Parameters
+    ----------
+    remote : str
+        The remote location to sync from (e.g., "csph-googledrive:2. Projects").
+    destination : str
+        The local destination to sync to (e.g., "/n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone").
+    dataset_pattern : re.Pattern
+        A regular expression pattern to match dataset directories (e.g., r"/[0-9]+\\. Datasets/$").
+    dry_run : bool, optional
+        If True, perform a dry run without making any changes (default is False).
+    Returns
+    -------
+    int
+        Returns 0 if the sync was successful, or 1 if there were any failures.
+    """
+    log.info("Starting sync: %s -> %s", remote, destination)
+    start_time = time.time()
+
     ensure_rclone()
-    dataset_dirs = list_dataset_dirs()
-
+    dataset_dirs = list_dataset_dirs(remote, dataset_pattern)
+    
     if not dataset_dirs:
-        print("No dataset directories found.")
+        log.warning("No dataset directories found.")
         return 0
 
     failures = 0
+
     for dataset_path in dataset_dirs:
-        dest_path = DESTINATION / dataset_path
+        dest_path = Path(destination) / dataset_path
         cmd = [
             "rclone",
             "copy",
-            f"{REMOTE}/{dataset_path}",
+            f"{remote}/{dataset_path}",
             str(dest_path),
             "--create-empty-src-dirs",
             "--progress",
         ]
+
         if dry_run:
             cmd.append("--dry-run")
 
-        print(f"Copying: {REMOTE}/{dataset_path} -> {dest_path}")
+        log.info("Copying: %s/%s -> %s", remote, dataset_path, dest_path)
+
         result = subprocess.run(cmd, check=False)
+
         if result.returncode != 0:
             failures += 1
-            print(f"Failed: {dataset_path}", file=sys.stderr)
+            log.error("Failed: %s", dataset_path)
+
+    elapsed = time.time() - start_time
+
+    log.info("Sync complete in %.2f seconds", elapsed)
 
     return 1 if failures else 0
+```
 
+```{python}
+#| sorting-hat: remove
+#| eval: false
+remote = cfg.remote
+destination = cfg.destination
+dataset_pattern = re.compile(r"/[0-9]+\. Datasets/$")
 
-def main() -> int:
-    args = parse_args()
-    if args.command == "sync":
-        return sync(dry_run=args.dry_run)
-    return 0
+sync(remote=remote, destination=destination, dataset_pattern=dataset_pattern, dry_run=True)
+```
 
+That looks great to me. Finally, we'll put in a main function for the CLI:
+
+```{python}
+#| sorting-hat: keep
+#| eval: false
+
+@hydra.main(version_base=None, config_path="conf", config_name="config")
+def main(cfg: DictConfig) -> int:
+    
+    dataset_pattern = re.compile(cfg.dataset_pattern)
+    if cfg.run == "sync":
+        return sync(
+            remote=cfg.remote,
+            destination=cfg.destination,
+            dataset_pattern=dataset_pattern,
+            dry_run=cfg.dry_run,
+        )
+    raise ValueError(f"Unknown action: {cfg.run}")
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())
+```
+
+After running Quarto render, the module should now be 
+exported to `src/google_drive_prospector/cli.py` and 
+can be run from the command line after we install it with `uv`:
+
+```bash
+uv pip install -e .
+python -m google_drive_prospector.cli sync --dry-run
 ```

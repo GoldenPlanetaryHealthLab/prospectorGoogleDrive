@@ -3,5 +3,6 @@
   "isort.importStrategy": "fromEnvironment",
   "isort.interpreter": [
     "/n/holylabs/cgolden_lab/Lab/frontier/works/prospectors/google-drive-prospector/.venv/bin/python"
-  ]
+  ],
+  "livePreview.defaultPreviewPath": "/great-docs/_site/index.html"
 }

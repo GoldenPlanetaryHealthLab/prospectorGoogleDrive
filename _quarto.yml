@@ -1,5 +1,6 @@
 project:
   title: "Google Drive Rclone Prospector"
+  execute-dir: project
   output-dir: "user_guide"
   render:
     - "notebooks/*"

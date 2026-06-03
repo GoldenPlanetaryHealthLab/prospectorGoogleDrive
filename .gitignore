@@ -8,6 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+.spack-env
 
 # Great Docs build directory (ephemeral, do not commit)
 great-docs/
@@ -20,3 +21,5 @@ great-docs/
 /.quarto/
 
 /.luarc.json
+
+**/*.quarto_ipynb

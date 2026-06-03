@@ -1,0 +1,5 @@
+remote: csph-googledrive:2. Projects
+destination: /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone
+dataset_pattern: /[0-9]+\. Datasets/$
+run: sync
+dry_run: false

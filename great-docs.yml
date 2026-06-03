@@ -21,9 +21,8 @@ dynamic: true
 # Exclusions
 # ----------
 # Items to exclude from auto-documentation (affects 'init' and 'scan')
-# exclude:
-#   - InternalClass
-#   - helper_function
+exclude:
+  - conf
 
 # Logo & Favicon
 # ---------------
@@ -92,12 +91,11 @@ jupyter: python3
 #
 # Uncomment and customize the reference section below:
 #
-# reference:
-#   - title: Functions
-#     desc: Public functions provided by the package
-#     contents:
-#       - my_function
-#       - another_function
+reference:
+  - title: Core
+    desc: Core Functionality
+    contents:
+      - cli
 #
 #   - title: Classes
 #     desc: Main classes for working with the package

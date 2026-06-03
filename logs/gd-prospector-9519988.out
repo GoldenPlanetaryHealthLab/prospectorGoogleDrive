@@ -1,0 +1,837 @@
+[2026-05-01 00:55:14,271][google_drive_prospector.cli][INFO] - Starting sync: csph-googledrive:2. Projects -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone
+[2026-05-01 00:55:14,341][google_drive_prospector.cli][INFO] - rclone is available.
+[2026-05-01 00:59:57,655][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Fisheries and Food Security/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Fisheries and Food Security/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.2s
+[2026-05-01 00:59:59,806][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Aquatic Food Composition Database/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Aquatic Food Composition Database/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 7
+Elapsed time:         0.5s
+2026/05/01 01:00:01 NOTICE: AFCD v2 release/AFCDv2_README.docx: Skipped copy as --dry-run is set (size 17.699Ki)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 4, 25%, Listed 11
+Transferred:            0 / 1, 0%
+Elapsed time:         0.5s
+Transferring:
+ *            AFCD v2 release/AFCDv2_README.docx: transferring
+2026/05/01 01:00:01 NOTICE: AFCD v2 release: Skipped set directory modification time as --dry-run is set (size 4Ki)
+Transferred:   	   17.699 KiB / 17.699 KiB, 100%, 0 B/s, ETA -
+Checks:                 4 / 4, 100%, Listed 11
+Transferred:            1 / 1, 100%
+Elapsed time:         0.5sTransferred:   	   17.699 KiB / 17.699 KiB, 100%, 0 B/s, ETA -
+Checks:                 4 / 4, 100%, Listed 11
+Transferred:            1 / 1, 100%
+Elapsed time:         0.5s
+[2026-05-01 01:00:01,867][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Global Nutrition/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Global Nutrition/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 5
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 9 / 9, 100%, Listed 209
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               185 / 185, 100%, Listed 388
+Elapsed time:         1.2s
+[2026-05-01 01:00:04,999][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Kiribati/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Kiribati/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 3 / 3, 100%, Listed 14
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                24 / 24, 100%, Listed 77
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                34 / 34, 100%, Listed 87
+Elapsed time:         1.0s
+[2026-05-01 01:00:07,599][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/ResearchDataManagement/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/ResearchDataManagement/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%, Listed 8
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 9 / 9, 100%, Listed 26
+Elapsed time:         0.9s
+[2026-05-01 01:00:09,927][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Madagascar/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Climate-Smart Public Health - Madagascar/4. Datasets
+
+2026/05/01 01:00:11 NOTICE: Agricultural data: Skipped set directory modification time as --dry-run is set (size 4Ki)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 33
+Elapsed time:         0.3sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 85
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                20 / 20, 100%, Listed 196
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                65 / 65, 100%, Listed 350
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                90 / 90, 100%, Listed 448
+Elapsed time:         2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               183 / 183, 100%, Listed 696
+Elapsed time:         2.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               259 / 259, 100%, Listed 1092
+Elapsed time:         3.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               345 / 345, 100%, Listed 1550
+Elapsed time:         3.5s
+2026/05/01 01:00:14 NOTICE: Air quality/AirQo sensors manual data/ Airqo Ambinanitelo/20230920.CSV: Duplicate object found in source - ignoring
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               345 / 347, 99%, Listed 1616
+Elapsed time:         3.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               487 / 487, 100%, Listed 2362
+Elapsed time:         4.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               610 / 610, 100%, Listed 2646
+Elapsed time:         4.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               726 / 726, 100%, Listed 3060
+Elapsed time:         5.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1278 / 1278, 100%, Listed 3921
+Elapsed time:         5.5s
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R3_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1462 / 1466, 100%, Listed 4162
+Transferred:            0 / 6, 0%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R4_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1462 / 1466, 100%, Listed 4162
+Transferred:            1 / 6, 17%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R5_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1462 / 1466, 100%, Listed 4162
+Transferred:            2 / 6, 33%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R6_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1463 / 1466, 100%, Listed 4162
+Transferred:            3 / 6, 50%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R7_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1464 / 1466, 100%, Listed 4162
+Transferred:            4 / 6, 67%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R8_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1464 / 1466, 100%, Listed 4162
+Transferred:            5 / 6, 83%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R1_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1465 / 1466, 100%, Listed 4162
+Transferred:            6 / 7, 86%
+Elapsed time:         5.8s
+Checking:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: checking
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferring
+2026/05/01 01:00:16 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged /R2_cleaned_yield_data.xlsx: Skipped copy as --dry-run is set
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1466 / 1466, 100%, Listed 4162
+Transferred:            7 / 8, 88%
+Elapsed time:         5.8s
+Transferring:
+ * Agricultural data/Rice…leaned_yield_data.xlsx: transferringTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1494 / 1494, 100%, Listed 4207
+Transferred:            8 / 8, 100%
+Elapsed time:         6.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1757 / 1757, 100%, Listed 4551
+Transferred:            8 / 8, 100%
+Elapsed time:         6.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1757 / 1757, 100%, Listed 4606
+Transferred:            8 / 8, 100%
+Elapsed time:         7.0s
+2026/05/01 01:00:18 NOTICE: Health Data/National clinic data/Clean/diagnosis_files/file25.feather: Duplicate object found in source - ignoring
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1757 / 1775, 99%, Listed 4648
+Transferred:            8 / 8, 100%
+Elapsed time:         7.2sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1806 / 1806, 100%, Listed 4670
+Transferred:            8 / 8, 100%
+Elapsed time:         7.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              1914 / 1914, 100%, Listed 4988
+Transferred:            8 / 8, 100%
+Elapsed time:         8.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2049 / 2049, 100%, Listed 5137
+Transferred:            8 / 8, 100%
+Elapsed time:         8.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2054 / 2054, 100%, Listed 5143
+Transferred:            8 / 8, 100%
+Elapsed time:         9.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2082 / 2082, 100%, Listed 5177
+Transferred:            8 / 8, 100%
+Elapsed time:         9.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2162 / 2162, 100%, Listed 5450
+Transferred:            8 / 8, 100%
+Elapsed time:        10.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2172 / 2172, 100%, Listed 5462
+Transferred:            8 / 8, 100%
+Elapsed time:        10.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2177 / 2177, 100%, Listed 5470
+Transferred:            8 / 8, 100%
+Elapsed time:        11.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2186 / 2186, 100%, Listed 5492
+Transferred:            8 / 8, 100%
+Elapsed time:        11.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2355 / 2355, 100%, Listed 5819
+Transferred:            8 / 8, 100%
+Elapsed time:        12.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2437 / 2437, 100%, Listed 5931
+Transferred:            8 / 8, 100%
+Elapsed time:        12.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2437 / 2437, 100%, Listed 5931
+Transferred:            8 / 8, 100%
+Elapsed time:        13.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2455 / 2455, 100%, Listed 5956
+Transferred:            8 / 8, 100%
+Elapsed time:        13.5s
+2026/05/01 01:00:24 NOTICE: Health Data/National clinic data/Clean/old files/diagnosis_dictionary_translated.xlsx: Duplicate object found in source - ignoring
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2493 / 2495, 100%, Listed 6037
+Transferred:            8 / 8, 100%
+Elapsed time:        13.8sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2495 / 2495, 100%, Listed 6052
+Transferred:            8 / 8, 100%
+Elapsed time:        14.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2500 / 2500, 100%, Listed 6066
+Transferred:            8 / 8, 100%
+Elapsed time:        14.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2502 / 2502, 100%, Listed 6121
+Transferred:            8 / 8, 100%
+Elapsed time:        15.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2510 / 2510, 100%, Listed 6151
+Transferred:            8 / 8, 100%
+Elapsed time:        15.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2638 / 2638, 100%, Listed 6393
+Transferred:            8 / 8, 100%
+Elapsed time:        16.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2651 / 2651, 100%, Listed 6413
+Transferred:            8 / 8, 100%
+Elapsed time:        16.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2652 / 2652, 100%, Listed 6414
+Transferred:            8 / 8, 100%
+Elapsed time:        17.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2723 / 2723, 100%, Listed 6511
+Transferred:            8 / 8, 100%
+Elapsed time:        17.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2772 / 2772, 100%, Listed 6639
+Transferred:            8 / 8, 100%
+Elapsed time:        18.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2773 / 2773, 100%, Listed 6641
+Transferred:            8 / 8, 100%
+Elapsed time:        18.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2774 / 2774, 100%, Listed 6651
+Transferred:            8 / 8, 100%
+Elapsed time:        19.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2816 / 2816, 100%, Listed 6742
+Transferred:            8 / 8, 100%
+Elapsed time:        19.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2831 / 2831, 100%, Listed 6772
+Transferred:            8 / 8, 100%
+Elapsed time:        20.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2836 / 2836, 100%, Listed 6783
+Transferred:            8 / 8, 100%
+Elapsed time:        20.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2836 / 2836, 100%, Listed 6788
+Transferred:            8 / 8, 100%
+Elapsed time:        21.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2886 / 2886, 100%, Listed 6894
+Transferred:            8 / 8, 100%
+Elapsed time:        21.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2887 / 2887, 100%, Listed 6903
+Transferred:            8 / 8, 100%
+Elapsed time:        22.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2891 / 2891, 100%, Listed 6912
+Transferred:            8 / 8, 100%
+Elapsed time:        22.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2907 / 2907, 100%, Listed 6961
+Transferred:            8 / 8, 100%
+Elapsed time:        23.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2945 / 2945, 100%, Listed 7051
+Transferred:            8 / 8, 100%
+Elapsed time:        23.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2946 / 2946, 100%, Listed 7071
+Transferred:            8 / 8, 100%
+Elapsed time:        24.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2951 / 2951, 100%, Listed 7077
+Transferred:            8 / 8, 100%
+Elapsed time:        24.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              2977 / 2977, 100%, Listed 7181
+Transferred:            8 / 8, 100%
+Elapsed time:        25.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3057 / 3057, 100%, Listed 7374
+Transferred:            8 / 8, 100%
+Elapsed time:        25.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3062 / 3062, 100%, Listed 7501
+Transferred:            8 / 8, 100%
+Elapsed time:        26.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3081 / 3081, 100%, Listed 7524
+Transferred:            8 / 8, 100%
+Elapsed time:        26.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3128 / 3141, 100%, Listed 7638
+Transferred:            8 / 8, 100%
+Elapsed time:        27.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3284 / 3284, 100%, Listed 7867
+Transferred:            8 / 8, 100%
+Elapsed time:        27.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3287 / 3287, 100%, Listed 7874
+Transferred:            8 / 8, 100%
+Elapsed time:        28.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3288 / 3288, 100%, Listed 7878
+Transferred:            8 / 8, 100%
+Elapsed time:        28.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3316 / 3316, 100%, Listed 7954
+Transferred:            8 / 8, 100%
+Elapsed time:        29.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3337 / 3337, 100%, Listed 8047
+Transferred:            8 / 8, 100%
+Elapsed time:        29.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3337 / 3337, 100%, Listed 8047
+Transferred:            8 / 8, 100%
+Elapsed time:        30.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3340 / 3340, 100%, Listed 8050
+Transferred:            8 / 8, 100%
+Elapsed time:        30.5s
+2026/05/01 01:00:41 NOTICE: Health Data/National clinic data/Raw/Support Data/Disease mapping across waves/From Kevin/Big Dictionary Revised_with_wave.xlsx: Duplicate object found in source - ignoring
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3341 / 3343, 100%, Listed 8060
+Transferred:            8 / 8, 100%
+Elapsed time:        30.6sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3444 / 3444, 100%, Listed 8224
+Transferred:            8 / 8, 100%
+Elapsed time:        31.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3447 / 3447, 100%, Listed 8248
+Transferred:            8 / 8, 100%
+Elapsed time:        31.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3452 / 3452, 100%, Listed 8260
+Transferred:            8 / 8, 100%
+Elapsed time:        32.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3465 / 3465, 100%, Listed 8276
+Transferred:            8 / 8, 100%
+Elapsed time:        32.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3499 / 3499, 100%, Listed 8374
+Transferred:            8 / 8, 100%
+Elapsed time:        33.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3506 / 3506, 100%, Listed 8389
+Transferred:            8 / 8, 100%
+Elapsed time:        33.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3506 / 3506, 100%, Listed 8389
+Transferred:            8 / 8, 100%
+Elapsed time:        34.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3517 / 3517, 100%, Listed 8428
+Transferred:            8 / 8, 100%
+Elapsed time:        34.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3535 / 3535, 100%, Listed 8496
+Transferred:            8 / 8, 100%
+Elapsed time:        35.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3551 / 3551, 100%, Listed 8520
+Transferred:            8 / 8, 100%
+Elapsed time:        35.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3552 / 3552, 100%, Listed 8523
+Transferred:            8 / 8, 100%
+Elapsed time:        36.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3564 / 3564, 100%, Listed 8589
+Transferred:            8 / 8, 100%
+Elapsed time:        36.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3581 / 3581, 100%, Listed 8679
+Transferred:            8 / 8, 100%
+Elapsed time:        37.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3582 / 3582, 100%, Listed 8681
+Transferred:            8 / 8, 100%
+Elapsed time:        37.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3582 / 3582, 100%, Listed 8694
+Transferred:            8 / 8, 100%
+Elapsed time:        38.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3615 / 3615, 100%, Listed 8776
+Transferred:            8 / 8, 100%
+Elapsed time:        38.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3623 / 3623, 100%, Listed 8822
+Transferred:            8 / 8, 100%
+Elapsed time:        39.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3624 / 3624, 100%, Listed 8824
+Transferred:            8 / 8, 100%
+Elapsed time:        39.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3625 / 3625, 100%, Listed 8827
+Transferred:            8 / 8, 100%
+Elapsed time:        40.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3657 / 3657, 100%, Listed 8882
+Transferred:            8 / 8, 100%
+Elapsed time:        40.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3665 / 3665, 100%, Listed 8956
+Transferred:            8 / 8, 100%
+Elapsed time:        41.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3666 / 3666, 100%, Listed 8958
+Transferred:            8 / 8, 100%
+Elapsed time:        41.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3666 / 3666, 100%, Listed 8958
+Transferred:            8 / 8, 100%
+Elapsed time:        42.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3721 / 3721, 100%, Listed 9046
+Transferred:            8 / 8, 100%
+Elapsed time:        42.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3729 / 3729, 100%, Listed 9100
+Transferred:            8 / 8, 100%
+Elapsed time:        43.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3729 / 3729, 100%, Listed 9101
+Transferred:            8 / 8, 100%
+Elapsed time:        43.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3730 / 3730, 100%, Listed 9103
+Transferred:            8 / 8, 100%
+Elapsed time:        44.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3762 / 3762, 100%, Listed 9155
+Transferred:            8 / 8, 100%
+Elapsed time:        44.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3765 / 3765, 100%, Listed 9161
+Transferred:            8 / 8, 100%
+Elapsed time:        45.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3766 / 3766, 100%, Listed 9163
+Transferred:            8 / 8, 100%
+Elapsed time:        45.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3768 / 3768, 100%, Listed 9167
+Transferred:            8 / 8, 100%
+Elapsed time:        46.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3776 / 3776, 100%, Listed 9199
+Transferred:            8 / 8, 100%
+Elapsed time:        46.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3803 / 3803, 100%, Listed 9242
+Transferred:            8 / 8, 100%
+Elapsed time:        47.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3805 / 3805, 100%, Listed 9248
+Transferred:            8 / 8, 100%
+Elapsed time:        47.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3805 / 3805, 100%, Listed 9248
+Transferred:            8 / 8, 100%
+Elapsed time:        48.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3807 / 3807, 100%, Listed 9251
+Transferred:            8 / 8, 100%
+Elapsed time:        48.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3834 / 3834, 100%, Listed 9307
+Transferred:            8 / 8, 100%
+Elapsed time:        49.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3835 / 3835, 100%, Listed 9331
+Transferred:            8 / 8, 100%
+Elapsed time:        49.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3836 / 3836, 100%, Listed 9332
+Transferred:            8 / 8, 100%
+Elapsed time:        50.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3843 / 3843, 100%, Listed 9342
+Transferred:            8 / 8, 100%
+Elapsed time:        50.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3873 / 3873, 100%, Listed 9416
+Transferred:            8 / 8, 100%
+Elapsed time:        51.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3874 / 3874, 100%, Listed 9421
+Transferred:            8 / 8, 100%
+Elapsed time:        51.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3875 / 3875, 100%, Listed 9423
+Transferred:            8 / 8, 100%
+Elapsed time:        52.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3924 / 3924, 100%, Listed 9505
+Transferred:            8 / 8, 100%
+Elapsed time:        52.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3929 / 3929, 100%, Listed 9539
+Transferred:            8 / 8, 100%
+Elapsed time:        53.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3929 / 3929, 100%, Listed 9542
+Transferred:            8 / 8, 100%
+Elapsed time:        53.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3932 / 3932, 100%, Listed 9546
+Transferred:            8 / 8, 100%
+Elapsed time:        54.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3977 / 3977, 100%, Listed 9642
+Transferred:            8 / 8, 100%
+Elapsed time:        54.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              3999 / 3999, 100%, Listed 9681
+Transferred:            8 / 8, 100%
+Elapsed time:        55.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4000 / 4000, 100%, Listed 9702
+Transferred:            8 / 8, 100%
+Elapsed time:        55.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4041 / 4041, 100%, Listed 9773
+Transferred:            8 / 8, 100%
+Elapsed time:        56.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4069 / 4069, 100%, Listed 9840
+Transferred:            8 / 8, 100%
+Elapsed time:        56.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4071 / 4071, 100%, Listed 9844
+Transferred:            8 / 8, 100%
+Elapsed time:        57.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4076 / 4076, 100%, Listed 9851
+Transferred:            8 / 8, 100%
+Elapsed time:        57.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4118 / 4118, 100%, Listed 9926
+Transferred:            8 / 8, 100%
+Elapsed time:        58.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4122 / 4122, 100%, Listed 9932
+Transferred:            8 / 8, 100%
+Elapsed time:        58.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4124 / 4124, 100%, Listed 9935
+Transferred:            8 / 8, 100%
+Elapsed time:        59.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4137 / 4137, 100%, Listed 9992
+Transferred:            8 / 8, 100%
+Elapsed time:        59.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4182 / 4182, 100%, Listed 10092
+Transferred:            8 / 8, 100%
+Elapsed time:       1m0.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4182 / 4182, 100%, Listed 10096
+Transferred:            8 / 8, 100%
+Elapsed time:       1m0.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4186 / 4186, 100%, Listed 10101
+Transferred:            8 / 8, 100%
+Elapsed time:       1m1.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4252 / 4252, 100%, Listed 10189
+Transferred:            8 / 8, 100%
+Elapsed time:       1m1.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4253 / 4253, 100%, Listed 10191
+Transferred:            8 / 8, 100%
+Elapsed time:       1m2.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4256 / 4256, 100%, Listed 10195
+Transferred:            8 / 8, 100%
+Elapsed time:       1m2.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4260 / 4260, 100%, Listed 10202
+Transferred:            8 / 8, 100%
+Elapsed time:       1m3.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4275 / 4275, 100%, Listed 10232
+Transferred:            8 / 8, 100%
+Elapsed time:       1m3.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4275 / 4275, 100%, Listed 10233
+Transferred:            8 / 8, 100%
+Elapsed time:       1m4.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4276 / 4276, 100%, Listed 10235
+Transferred:            8 / 8, 100%
+Elapsed time:       1m4.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4283 / 4283, 100%, Listed 10259
+Transferred:            8 / 8, 100%
+Elapsed time:       1m5.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4310 / 4310, 100%, Listed 10308
+Transferred:            8 / 8, 100%
+Elapsed time:       1m5.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4311 / 4311, 100%, Listed 10312
+Transferred:            8 / 8, 100%
+Elapsed time:       1m6.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4314 / 4314, 100%, Listed 10316
+Transferred:            8 / 8, 100%
+Elapsed time:       1m6.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4325 / 4325, 100%, Listed 10346
+Transferred:            8 / 8, 100%
+Elapsed time:       1m7.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4352 / 4352, 100%, Listed 10385
+Transferred:            8 / 8, 100%
+Elapsed time:       1m7.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4352 / 4352, 100%, Listed 10387
+Transferred:            8 / 8, 100%
+Elapsed time:       1m8.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4352 / 4352, 100%, Listed 10387
+Transferred:            8 / 8, 100%
+Elapsed time:       1m8.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4361 / 4361, 100%, Listed 10422
+Transferred:            8 / 8, 100%
+Elapsed time:       1m9.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4400 / 4400, 100%, Listed 10492
+Transferred:            8 / 8, 100%
+Elapsed time:       1m9.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4401 / 4401, 100%, Listed 10498
+Transferred:            8 / 8, 100%
+Elapsed time:      1m10.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4404 / 4404, 100%, Listed 10501
+Transferred:            8 / 8, 100%
+Elapsed time:      1m10.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4424 / 4424, 100%, Listed 10543
+Transferred:            8 / 8, 100%
+Elapsed time:      1m11.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4430 / 4430, 100%, Listed 10557
+Transferred:            8 / 8, 100%
+Elapsed time:      1m11.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4437 / 4437, 100%, Listed 10567
+Transferred:            8 / 8, 100%
+Elapsed time:      1m12.0sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4437 / 4437, 100%, Listed 10567
+Transferred:            8 / 8, 100%
+Elapsed time:      1m12.5sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4455 / 4455, 100%, Listed 10602
+Transferred:            8 / 8, 100%
+Elapsed time:      1m13.0s
+2026/05/01 01:01:24 NOTICE: Agricultural data/Rice plots field labels/Yield data/Cleaned and merged : Skipped set directory modification time as --dry-run is set (size 4Ki)
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4469 / 4469, 100%, Listed 10619
+Transferred:            8 / 8, 100%
+Elapsed time:      1m13.3s
+2026/05/01 01:01:24 NOTICE: Agricultural data/Rice plots field labels/Yield data: Skipped set directory modification time as --dry-run is set (size 4Ki)
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4469 / 4469, 100%, Listed 10619
+Transferred:            8 / 8, 100%
+Elapsed time:      1m13.3s
+2026/05/01 01:01:24 NOTICE: Agricultural data/Rice plots field labels: Skipped set directory modification time as --dry-run is set (size 4Ki)
+Transferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4469 / 4469, 100%, Listed 10619
+Transferred:            8 / 8, 100%
+Elapsed time:      1m13.3sTransferred:   	          off / off, -, 0 B/s, ETA -
+Checks:              4469 / 4469, 100%, Listed 10619
+Transferred:            8 / 8, 100%
+Elapsed time:      1m13.3s
+[2026-05-01 01:01:25,104][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Nepal/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Climate-Smart Public Health - Nepal/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                10 / 10, 100%, Listed 73
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                48 / 48, 100%, Listed 182
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               115 / 115, 100%, Listed 306
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               149 / 149, 100%, Listed 355
+Elapsed time:         1.9s
+[2026-05-01 01:01:29,324][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/CLTN/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/CLTN/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 10
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 7 / 7, 100%, Listed 28
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                11 / 11, 100%, Listed 32
+Elapsed time:         1.0s
+[2026-05-01 01:01:32,164][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/SW Artificial Reef/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Madagascar Cohort Data/SW Artificial Reef/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 3 / 3, 100%, Listed 11
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 6 / 6, 100%, Listed 14
+Elapsed time:         0.6s
+[2026-05-01 01:01:35,109][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/RIMA/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Madagascar Cohort Data/RIMA/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 3 / 3, 100%, Listed 12
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                22 / 22, 100%, Listed 50
+Elapsed time:         0.7s
+[2026-05-01 01:01:38,120][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/Chicken Project/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Madagascar Cohort Data/Chicken Project/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 28
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                26 / 26, 100%, Listed 54
+Elapsed time:         0.7s
+[2026-05-01 01:01:40,915][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets
+
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data: Skipped make directory as --dry-run is set
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 13
+Elapsed time:         0.3s
+2026/05/01 01:01:42 NOTICE: CRS Micronutrient Data: Skipped set directory modification time as --dry-run is set (size 4Ki)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 13
+Elapsed time:         0.3s
+2026/05/01 01:01:42 NOTICE: Darwin Demographic and Clinical Data: Skipped make directory as --dry-run is set
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 13
+Elapsed time:         0.3s
+2026/05/01 01:01:42 NOTICE: Fatty acid data: Skipped make directory as --dry-run is set
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 13
+Elapsed time:         0.3sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 27
+Elapsed time:         0.5s
+2026/05/01 01:01:42 NOTICE: Fatty acid data/CRS: Skipped make directory as --dry-run is set
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 29
+Elapsed time:         0.6s
+2026/05/01 01:01:42 NOTICE: Fatty acid data/Darwin: Skipped make directory as --dry-run is set
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 29
+Elapsed time:         0.6s
+2026/05/01 01:01:42 NOTICE: Darwin Demographic and Clinical Data/Compiled.csv: Skipped copy as --dry-run is set (size 634.113Ki)
+Transferred:   	          0 B / 187.463 KiB, 0%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 31
+Transferred:            0 / 2, 0%
+Elapsed time:         0.6s
+Transferring:
+ * Darwin Demographic and…ical Data/Compiled.csv: transferring
+2026/05/01 01:01:42 NOTICE: Darwin Demographic and Clinical Data/darwin_pop.csv: Skipped copy as --dry-run is set (size 187.463Ki)
+Transferred:   	  634.113 KiB / 634.113 KiB, 100%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 31
+Transferred:            1 / 2, 50%
+Elapsed time:         0.6s
+Transferring:
+ * Darwin Demographic and…al Data/darwin_pop.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/CRS2017_clinical_data_20200523.csv: Skipped copy as --dry-run is set (size 362.020Ki)
+Transferred:   	  821.576 KiB / 23.103 MiB, 3%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            2 / 11, 18%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…ical_data_20200523.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/CRS2017_master_individual_list_20200523.csv: Skipped copy as --dry-run is set (size 407.193Ki)
+Transferred:   	    1.156 MiB / 23.059 MiB, 5%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            3 / 11, 27%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…dual_list_20200523.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/Metadata_Adults 20180128.csv: Skipped copy as --dry-run is set (size 103.194Ki)
+Transferred:   	    1.554 MiB / 23.356 MiB, 7%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            4 / 11, 36%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…ta_Adults 20180128.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/Metadata_Head of Household 20180128.csv: Skipped copy as --dry-run is set (size 181.928Ki)
+Transferred:   	    1.654 MiB / 23.279 MiB, 7%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            5 / 11, 45%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…Household 20180128.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/Metadata_Individuals 20180128.csv: Skipped copy as --dry-run is set (size 89.648Ki)
+Transferred:   	    1.832 MiB / 23.369 MiB, 8%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            6 / 11, 55%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…dividuals 20180128.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/README CRS Demographic and Clinical Data.docx: Skipped copy as --dry-run is set
+Transferred:   	    1.919 MiB / 23.457 MiB, 8%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            7 / 11, 64%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…and Clinical Data.docx: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/Survey_Data_Adults_All_Merged.csv: Skipped copy as --dry-run is set (size 10.290Mi)
+Transferred:   	    1.919 MiB / 13.167 MiB, 15%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            8 / 11, 73%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…_Adults_All_Merged.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/Survey_Data_Head_of_Household_All_Merged.csv: Skipped copy as --dry-run is set (size 3.376Mi)
+Transferred:   	   12.210 MiB / 20.081 MiB, 61%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:            9 / 11, 82%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…usehold_All_Merged.csv: transferring
+2026/05/01 01:01:42 NOTICE: CRS Demographic and Clinical Data/Survey_Data_Individual_All_Merged.csv: Skipped copy as --dry-run is set (size 7.871Mi)
+Transferred:   	   15.586 MiB / 15.586 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 54
+Transferred:           10 / 11, 91%
+Elapsed time:         0.7s
+Transferring:
+ * CRS Demographic and Cl…ividual_All_Merged.csv: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/Darwin/Darwin clinical sample results_combined_011019.xlsx: Skipped copy as --dry-run is set (size 998.776Ki)
+Transferred:   	   23.457 MiB / 23.667 MiB, 99%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 57
+Transferred:           11 / 14, 79%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/Darwin…s_combined_011019.xlsx: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/Darwin/Darwin fatty acid profiles.xlsx: Skipped copy as --dry-run is set (size 145.828Ki)
+Transferred:   	   24.432 MiB / 24.500 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 57
+Transferred:           12 / 14, 86%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/Darwin…tty acid profiles.xlsx: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/Darwin/Sample Manifest for sample received 5-22-18, 5-3-17 Updated.xlsx: Skipped copy as --dry-run is set (size 69.816Ki)
+Transferred:   	   24.575 MiB / 24.575 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 57
+Transferred:           13 / 14, 93%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/Darwin…8, 5-3-17 Updated.xlsx: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/2019 OmegaQuant Plot v1.3.Rmd: Skipped copy as --dry-run is set (size 10.503Ki)
+Transferred:   	   24.643 MiB / 27.049 MiB, 91%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           14 / 21, 67%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/20…egaQuant Plot v1.3.Rmd: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/2019-OmegaQuant-Plot-v1.3.html: Skipped copy as --dry-run is set (size 1.499Mi)
+Transferred:   	   24.653 MiB / 25.560 MiB, 96%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           15 / 21, 71%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/20…gaQuant-Plot-v1.3.html: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/MAHERY Results 01252019.csv: Skipped copy as --dry-run is set (size 96.688Ki)
+Transferred:   	   26.152 MiB / 26.965 MiB, 97%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           16 / 21, 76%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/MA…Y Results 01252019.csv: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/Preliminary Omega Quant Analysis FIgures Ben 20190305.pdf: Skipped copy as --dry-run is set (size 113.229Ki)
+Transferred:   	   26.247 MiB / 26.949 MiB, 97%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           17 / 21, 81%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/Pr…gures Ben 20190305.pdf: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/Preliminary Omega Quant Analysis FIgures Ben 20190305.pptx: Skipped copy as --dry-run is set (size 92.347Ki)
+Transferred:   	   26.357 MiB / 26.969 MiB, 98%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           18 / 21, 86%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/Pr…ures Ben 20190305.pptx: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/Screen Shot 2019-03-04 at 23.49.39.png: Skipped copy as --dry-run is set (size 200.560Ki)
+Transferred:   	   26.448 MiB / 26.863 MiB, 98%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           19 / 21, 90%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/Sc…-03-04 at 23.49.39.png: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS/Screen Shot 2019-03-04 at 23.50.09.png: Skipped copy as --dry-run is set (size 425.727Ki)
+Transferred:   	   26.643 MiB / 26.643 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           20 / 21, 95%
+Elapsed time:         0.8s
+Transferring:
+ * Fatty acid data/CRS/Sc…-03-04 at 23.50.09.png: transferring
+2026/05/01 01:01:43 NOTICE: Fatty acid data/Darwin: Skipped set directory modification time as --dry-run is set
+Transferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8s
+2026/05/01 01:01:43 NOTICE: Fatty acid data/CRS: Skipped set directory modification time as --dry-run is set
+Transferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8s
+2026/05/01 01:01:43 NOTICE: Fatty acid data: Skipped set directory modification time as --dry-run is set
+Transferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8s
+2026/05/01 01:01:43 NOTICE: CRS Demographic and Clinical Data: Skipped set directory modification time as --dry-run is set
+Transferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8s
+2026/05/01 01:01:43 NOTICE: Darwin Demographic and Clinical Data: Skipped set directory modification time as --dry-run is set
+Transferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8s
+2026/05/01 01:01:43 NOTICE: Local file system at /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets: Skipped set directory modification time as --dry-run is set
+Transferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8sTransferred:   	   27.059 MiB / 27.059 MiB, 100%, 0 B/s, ETA -
+Checks:                16 / 16, 100%, Listed 64
+Transferred:           21 / 21, 100%
+Elapsed time:         0.8s
+[2026-05-01 01:01:43,244][google_drive_prospector.cli][INFO] - Sync complete in 388.97 seconds
