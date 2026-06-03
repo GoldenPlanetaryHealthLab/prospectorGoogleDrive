@@ -12,6 +12,7 @@ extensions:
     output-name: "cli"
     output-dir: "../src/google_drive_prospector"
 format: gfm
+keep-md: true
 ---
 
 This package is a simple wrapper around the `rclone` command line tool 
