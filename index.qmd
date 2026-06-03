@@ -19,4 +19,4 @@ The `scrontab` for this sync is set to run every day at 2am:
 Since this is an automated tool, we include logging to track the sync
 and re-render the documentation to see the last successful logs.
 
-{<< include("notebooks/parse_logs.qmd") >>}
+{<< include notebooks/parse_logs.qmd >>}
