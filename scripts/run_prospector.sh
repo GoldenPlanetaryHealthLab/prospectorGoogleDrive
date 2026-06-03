@@ -20,3 +20,8 @@ echo "Running Google Drive Prospector..."
 
 # Run the prospector
 time google-drive-prospector dry_run=false
+
+# save the logs
+NOW=$( date '+%F_%H:%M:%S' )
+git add logs
+git commit -m "SCRONTAB ran at $NOW" 

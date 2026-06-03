@@ -13,7 +13,7 @@ syncing needs.
 The `scrontab` for this sync is set to run every day at 2am:
 
 ```shell
-0 2 * * * /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/sync.sh >> /n/holylabs/LABS/cgolden_lab/Lab/data_freeze/golden_googledrive_rclone/sync.log 2>&1
+0 2 * * * /n/holylabs/LABS/cgolden_lab/Lab/frontier/works/prospectors/prospectorGoogleDrive/scripts/run_prospector.sh
 ```
 
 Since this is an automated tool, we include logging to track the sync
