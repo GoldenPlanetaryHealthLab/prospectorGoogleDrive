@@ -1,0 +1,467 @@
+Running Google Drive Prospector...
+[2026-06-05 12:31:19,687][google_drive_prospector.cli][INFO] - Starting sync: csph-googledrive:2. Projects -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone
+[2026-06-05 12:31:19,703][google_drive_prospector.cli][INFO] - rclone is available.
+[2026-06-05 12:36:06,904][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Madagascar/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Climate-Smart Public Health - Madagascar/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 83
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                14 / 14, 100%, Listed 150
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                28 / 28, 100%, Listed 249
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                66 / 66, 100%, Listed 363
+Elapsed time:         2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                80 / 80, 100%, Listed 442
+Elapsed time:         2.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               123 / 123, 100%, Listed 569
+Elapsed time:         3.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               193 / 193, 100%, Listed 785
+Elapsed time:         3.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               268 / 269, 100%, Listed 1145
+Elapsed time:         3.9s
+Checking:
+ * Environmental Data/Gro…imate data rescue .pdf: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               306 / 306, 100%, Listed 1481
+Elapsed time:         4.5s
+2026/06/05 12:36:13 NOTICE: Air quality/AirQo sensors manual data/ Airqo Ambinanitelo/20230920.CSV: Duplicate object found in source - ignoring
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               313 / 313, 100%, Listed 1568
+Elapsed time:         4.6sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               414 / 414, 100%, Listed 1730
+Elapsed time:         5.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               515 / 515, 100%, Listed 2450
+Elapsed time:         5.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               643 / 643, 100%, Listed 2734
+Elapsed time:         6.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               776 / 776, 100%, Listed 3315
+Elapsed time:         6.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               951 / 952, 100%, Listed 3560
+Elapsed time:         7.0s
+Checking:
+ * Air quality/AirQo sens…ntaravato/20240326.CSV: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1671 / 1671, 100%, Listed 4389
+Elapsed time:         7.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1685 / 1812, 93%, Listed 4800
+Elapsed time:         8.0s
+Checking:
+ * Health Data/National c…10_wrong_fname.feather: checking
+ * Health Data/National c…11_wrong_fname.feather: checking
+ * Health Data/National c…12_wrong_fname.feather: checking
+ * Health Data/National c…13_wrong_fname.feather: checking
+ * Health Data/National c…14_wrong_fname.feather: checking
+ * Health Data/National c…15_wrong_fname.feather: checking
+ * Health Data/National c…16_wrong_fname.feather: checking
+ * Health Data/National c…17_wrong_fname.feather: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1695 / 1974, 86%, Listed 5006
+Elapsed time:         8.5s
+Checking:
+ * Health Data/National c…10_wrong_fname.feather: checking
+ * Health Data/National c…12_wrong_fname.feather: checking
+ * Health Data/National c…13_wrong_fname.feather: checking
+ * Health Data/National c…18_wrong_fname.feather: checking
+ * Health Data/National c…19_wrong_fname.feather: checking
+ * Health Data/National c…e1_wrong_fname.feather: checking
+ * Health Data/National c…20_wrong_fname.feather: checking
+ * Health Data/National c…21_wrong_fname.feather: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1709 / 2022, 85%, Listed 5062
+Elapsed time:         9.0s
+Checking:
+ * Health Data/National c…13_wrong_fname.feather: checking
+ * Health Data/National c…e1_wrong_fname.feather: checking
+ * Health Data/National c…23_wrong_fname.feather: checking
+ * Health Data/National c…24_wrong_fname.feather: checking
+ * Health Data/National c…25_wrong_fname.feather: checking
+ * Health Data/National c…26_wrong_fname.feather: checking
+ * Health Data/National c…27_wrong_fname.feather: checking
+ * Health Data/National c…28_wrong_fname.feather: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1727 / 2063, 84%, Listed 5138
+Elapsed time:         9.5s
+Checking:
+ * Health Data/National c…e2_wrong_fname.feather: checking
+ * Health Data/National c…30_wrong_fname.feather: checking
+ * Health Data/National c…31_wrong_fname.feather: checking
+ * Health Data/National c…32_wrong_fname.feather: checking
+ * Health Data/National c…33_wrong_fname.feather: checking
+ * Health Data/National c…34_wrong_fname.feather: checking
+ * Health Data/National c…35_wrong_fname.feather: checking
+ * Health Data/National c…36_wrong_fname.feather: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1738 / 2108, 82%, Listed 5279
+Elapsed time:        10.0s
+Checking:
+ * Health Data/National c…e2_wrong_fname.feather: checking
+ * Health Data/National c…36_wrong_fname.feather: checking
+ * Health Data/National c…37_wrong_fname.feather: checking
+ * Health Data/National c…38_wrong_fname.feather: checking
+ * Health Data/National c…39_wrong_fname.feather: checking
+ * Health Data/National c…e3_wrong_fname.feather: checking
+ * Health Data/National c…40_wrong_fname.feather: checking
+ * Health Data/National c…e4_wrong_fname.feather: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1742 / 2110, 83%, Listed 5286
+Elapsed time:        10.5s
+Checking:
+ * Health Data/National c…e2_wrong_fname.feather: checking
+ * Health Data/National c…37_wrong_fname.feather: checking
+ * Health Data/National c…38_wrong_fname.feather: checking
+ * Health Data/National c…39_wrong_fname.feather: checking
+ * Health Data/National c…e3_wrong_fname.feather: checking
+ * Health Data/National c…e4_wrong_fname.feather: checking
+ * Health Data/National c…e5_wrong_fname.feather: checking
+ * Health Data/National c…e6_wrong_fname.feather: checking
+2026/06/05 12:36:19 NOTICE: Health Data/National clinic data/Clean/diagnosis_files/file25.feather: Duplicate object found in source - ignoring
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1870 / 2128, 88%, Listed 5357
+Elapsed time:        10.9s
+Checking:
+ * Health Data/National c…e2_wrong_fname.feather: checking
+ * Health Data/National c…38_wrong_fname.feather: checking
+ * Health Data/National c…39_wrong_fname.feather: checking
+ * Health Data/National c…e6_wrong_fname.feather: checking
+ * Health Data/National c…e7_wrong_fname.feather: checking
+ * Health Data/National c…e8_wrong_fname.feather: checking
+ * Health Data/National c…e9_wrong_fname.feather: checking
+ * Air quality/AirQo Depl…avato/20231107 (2).CSV: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              1875 / 2160, 87%, Listed 5380
+Elapsed time:        11.0s
+Checking:
+ * Health Data/National c…38_wrong_fname.feather: checking
+ * Health Data/National c…39_wrong_fname.feather: checking
+ * Health Data/National c…e6_wrong_fname.feather: checking
+ * Health Data/National c…e7_wrong_fname.feather: checking
+ * Health Data/National c…e8_wrong_fname.feather: checking
+ * Health Data/National c…e9_wrong_fname.feather: checking
+ * Air quality/AirQo Depl…ntaravato/20231126.CSV: checking
+ * Air quality/AirQo Depl…ntaravato/20231127.CSV: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2238 / 2238, 100%, Listed 5630
+Elapsed time:        11.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2299 / 2299, 100%, Listed 5698
+Elapsed time:        12.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2352 / 2352, 100%, Listed 5760
+Elapsed time:        12.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2400 / 2400, 100%, Listed 5860
+Elapsed time:        13.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2436 / 2436, 100%, Listed 5983
+Elapsed time:        13.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2437 / 2437, 100%, Listed 5989
+Elapsed time:        14.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2527 / 2528, 100%, Listed 6152
+Elapsed time:        14.5s
+Checking:
+ * Environmental Data/Rem…s/mdg_2022.tif.vat.cpg: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2603 / 2603, 100%, Listed 6303
+Elapsed time:        15.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2643 / 2643, 100%, Listed 6353
+Elapsed time:        15.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2652 / 2652, 100%, Listed 6375
+Elapsed time:        16.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2700 / 2700, 100%, Listed 6464
+Elapsed time:        16.4s
+2026/06/05 12:36:25 NOTICE: Health Data/National clinic data/Clean/old files/diagnosis_dictionary_translated.xlsx: Duplicate object found in source - ignoring
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2712 / 2714, 100%, Listed 6494
+Elapsed time:        16.6sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2722 / 2722, 100%, Listed 6508
+Elapsed time:        17.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2731 / 2731, 100%, Listed 6518
+Elapsed time:        17.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2745 / 2745, 100%, Listed 6536
+Elapsed time:        18.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2785 / 2785, 100%, Listed 6646
+Elapsed time:        18.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2800 / 2800, 100%, Listed 6664
+Elapsed time:        19.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2809 / 2809, 100%, Listed 6687
+Elapsed time:        19.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2824 / 2824, 100%, Listed 6724
+Elapsed time:        19.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2853 / 2853, 100%, Listed 6809
+Elapsed time:        20.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2862 / 2862, 100%, Listed 6819
+Elapsed time:        21.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2863 / 2863, 100%, Listed 6826
+Elapsed time:        21.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2902 / 2902, 100%, Listed 6912
+Elapsed time:        22.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2906 / 2906, 100%, Listed 6924
+Elapsed time:        22.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2909 / 2909, 100%, Listed 6932
+Elapsed time:        23.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2912 / 2912, 100%, Listed 6943
+Elapsed time:        23.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2951 / 2951, 100%, Listed 7034
+Elapsed time:        24.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2976 / 2976, 100%, Listed 7091
+Elapsed time:        24.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2976 / 2977, 100%, Listed 7092
+Elapsed time:        24.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              2980 / 2980, 100%, Listed 7119
+Elapsed time:        25.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3028 / 3028, 100%, Listed 7276
+Elapsed time:        26.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3083 / 3083, 100%, Listed 7490
+Elapsed time:        26.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3083 / 3083, 100%, Listed 7490
+Elapsed time:        26.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3090 / 3090, 100%, Listed 7516
+Elapsed time:        27.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3290 / 3290, 100%, Listed 7857
+Elapsed time:        28.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3295 / 3295, 100%, Listed 7869
+Elapsed time:        28.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3295 / 3295, 100%, Listed 7869
+Elapsed time:        29.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3300 / 3300, 100%, Listed 7897
+Elapsed time:        29.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3345 / 3345, 100%, Listed 8002
+Elapsed time:        30.0s
+2026/06/05 12:36:38 NOTICE: Health Data/National clinic data/Raw/Support Data/Disease mapping across waves/From Kevin/Big Dictionary Revised_with_wave.xlsx: Duplicate object found in source - ignoring
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3347 / 3349, 100%, Listed 8021
+Elapsed time:        30.1sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3357 / 3357, 100%, Listed 8027
+Elapsed time:        30.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3360 / 3360, 100%, Listed 8033
+Elapsed time:        31.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3379 / 3379, 100%, Listed 8077
+Elapsed time:        31.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3402 / 3402, 100%, Listed 8182
+Elapsed time:        32.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3403 / 3403, 100%, Listed 8184
+Elapsed time:        32.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3458 / 3458, 100%, Listed 8251
+Elapsed time:        32.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3497 / 3497, 100%, Listed 8316
+Elapsed time:        33.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3512 / 3512, 100%, Listed 8386
+Elapsed time:        34.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3513 / 3513, 100%, Listed 8388
+Elapsed time:        34.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3513 / 3513, 100%, Listed 8388
+Elapsed time:        34.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3537 / 3537, 100%, Listed 8434
+Elapsed time:        35.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3562 / 3562, 100%, Listed 8502
+Elapsed time:        35.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3563 / 3563, 100%, Listed 8536
+Elapsed time:        36.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3566 / 3566, 100%, Listed 8539
+Elapsed time:        37.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3571 / 3571, 100%, Listed 8565
+Elapsed time:        37.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3602 / 3603, 100%, Listed 8674
+Elapsed time:        38.0s
+Checking:
+ * Health Data/National c…leau 15/tableau 15.csv: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3604 / 3604, 100%, Listed 8700
+Elapsed time:        38.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3606 / 3606, 100%, Listed 8711
+Elapsed time:        39.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3611 / 3611, 100%, Listed 8733
+Elapsed time:        39.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3640 / 3640, 100%, Listed 8809
+Elapsed time:        40.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3644 / 3644, 100%, Listed 8855
+Elapsed time:        40.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3644 / 3644, 100%, Listed 8857
+Elapsed time:        41.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3676 / 3676, 100%, Listed 8910
+Elapsed time:        41.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3683 / 3683, 100%, Listed 8964
+Elapsed time:        42.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3684 / 3684, 100%, Listed 8967
+Elapsed time:        42.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3713 / 3713, 100%, Listed 8997
+Elapsed time:        43.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3722 / 3722, 100%, Listed 9053
+Elapsed time:        43.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3761 / 3761, 100%, Listed 9153
+Elapsed time:        44.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3763 / 3763, 100%, Listed 9157
+Elapsed time:        44.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3765 / 3765, 100%, Listed 9165
+Elapsed time:        45.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3790 / 3790, 100%, Listed 9201
+Elapsed time:        45.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3797 / 3797, 100%, Listed 9216
+Elapsed time:        45.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3798 / 3798, 100%, Listed 9218
+Elapsed time:        46.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3802 / 3802, 100%, Listed 9228
+Elapsed time:        47.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3810 / 3810, 100%, Listed 9253
+Elapsed time:        47.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3818 / 3818, 100%, Listed 9267
+Elapsed time:        48.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3819 / 3819, 100%, Listed 9269
+Elapsed time:        48.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3823 / 3824, 100%, Listed 9288
+Elapsed time:        49.0s
+Checking:
+ * Health Data/National c…ableau 6/tableau 6.csv: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3843 / 3843, 100%, Listed 9336
+Elapsed time:        49.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3845 / 3845, 100%, Listed 9345
+Elapsed time:        50.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3845 / 3845, 100%, Listed 9345
+Elapsed time:        50.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3869 / 3869, 100%, Listed 9378
+Elapsed time:        51.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3881 / 3881, 100%, Listed 9422
+Elapsed time:        51.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3886 / 3886, 100%, Listed 9431
+Elapsed time:        52.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3887 / 3887, 100%, Listed 9433
+Elapsed time:        52.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3908 / 3908, 100%, Listed 9478
+Elapsed time:        53.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3934 / 3934, 100%, Listed 9520
+Elapsed time:        53.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3950 / 3950, 100%, Listed 9556
+Elapsed time:        54.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3954 / 3954, 100%, Listed 9577
+Elapsed time:        54.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3956 / 3956, 100%, Listed 9597
+Elapsed time:        54.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              3993 / 3993, 100%, Listed 9666
+Elapsed time:        55.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4022 / 4022, 100%, Listed 9740
+Elapsed time:        56.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4036 / 4036, 100%, Listed 9755
+Elapsed time:        56.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4037 / 4037, 100%, Listed 9758
+Elapsed time:        57.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4047 / 4066, 100%, Listed 9818
+Elapsed time:        57.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4119 / 4119, 100%, Listed 9907
+Elapsed time:        57.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4127 / 4127, 100%, Listed 9924
+Elapsed time:        58.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4128 / 4128, 100%, Listed 9926
+Elapsed time:        59.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4130 / 4130, 100%, Listed 9934
+Elapsed time:        59.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4173 / 4173, 100%, Listed 10035
+Elapsed time:       1m0.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4176 / 4176, 100%, Listed 10044
+Elapsed time:       1m0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4176 / 4176, 100%, Listed 10044
+Elapsed time:       1m1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4196 / 4196, 100%, Listed 10110
+Elapsed time:       1m1.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4261 / 4261, 100%, Listed 10197
+Elapsed time:       1m2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4269 / 4269, 100%, Listed 10210
+Elapsed time:       1m2.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4270 / 4270, 100%, Listed 10212
+Elapsed time:       1m3.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4272 / 4272, 100%, Listed 10216
+Elapsed time:       1m3.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4286 / 4286, 100%, Listed 10244
+Elapsed time:       1m4.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4288 / 4288, 100%, Listed 10249
+Elapsed time:       1m4.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4290 / 4290, 100%, Listed 10252
+Elapsed time:       1m5.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4293 / 4293, 100%, Listed 10258
+Elapsed time:       1m5.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4309 / 4309, 100%, Listed 10301
+Elapsed time:       1m6.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4332 / 4332, 100%, Listed 10346
+Elapsed time:       1m6.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4333 / 4333, 100%, Listed 10348
+Elapsed time:       1m7.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4335 / 4335, 100%, Listed 10351
+Elapsed time:       1m7.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4352 / 4352, 100%, Listed 10383
+Elapsed time:       1m8.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4367 / 4367, 100%, Listed 10406
+Elapsed time:       1m8.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4368 / 4368, 100%, Listed 10411
+Elapsed time:       1m9.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4372 / 4372, 100%, Listed 10419
+Elapsed time:       1m9.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4412 / 4412, 100%, Listed 10505
+Elapsed time:      1m10.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4416 / 4416, 100%, Listed 10514
+Elapsed time:      1m10.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4418 / 4418, 100%, Listed 10517
+Elapsed time:      1m11.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4437 / 4437, 100%, Listed 10559
+Elapsed time:      1m11.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4442 / 4442, 100%, Listed 10570
+Elapsed time:      1m11.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4443 / 4443, 100%, Listed 10574
+Elapsed time:      1m12.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4450 / 4450, 100%, Listed 10586
+Elapsed time:      1m13.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4476 / 4476, 100%, Listed 10627
+Elapsed time:      1m13.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:              4481 / 4481, 100%, Listed 10632
+Elapsed time:      1m13.6s
+[2026-06-05 12:37:22,109][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Fisheries and Food Security/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Fisheries and Food Security/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.2s
+[2026-06-05 12:37:23,391][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/ResearchDataManagement/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/ResearchDataManagement/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%, Listed 11
+Elapsed time:         0.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                10 / 10, 100%, Listed 30
+Elapsed time:         0.9s
+[2026-06-05 12:37:25,786][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Global Nutrition/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Global Nutrition/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 5
+Elapsed time:         0.4s
+[2026-06-05 12:37:27,573][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Kiribati/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Kiribati/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 4
+Elapsed time:         0.2s
+[2026-06-05 12:37:29,181][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Aquatic Food Composition Database/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Aquatic Food Composition Database/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 6
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 4 / 4, 100%, Listed 10
+Elapsed time:         0.7s
+[2026-06-05 12:37:31,047][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Nepal/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Climate-Smart Public Health - Nepal/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 2, 0%, Listed 44
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                39 / 40, 98%, Listed 140
+Elapsed time:         0.9s
+Checking:
+ *           NPL-Climate-Hlth-GH_Data/IMNCI.xlsx: checkingTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                86 / 86, 100%, Listed 254
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               116 / 116, 100%, Listed 309
+Elapsed time:         2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               150 / 150, 100%, Listed 358
+Elapsed time:         2.4s
+[2026-06-05 12:37:34,636][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/CLTN/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/CLTN/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 10
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 4 / 4, 100%, Listed 25
+Elapsed time:         0.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                11 / 11, 100%, Listed 32
+Elapsed time:         1.0s
+[2026-06-05 12:37:39,336][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/RIMA/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/RIMA/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 3 / 3, 100%, Listed 31
+Elapsed time:         0.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                22 / 22, 100%, Listed 50
+Elapsed time:         0.7s
+[2026-06-05 12:37:41,689][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/SW Artificial Reef/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/SW Artificial Reef/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 4
+Elapsed time:         0.2s
+[2026-06-05 12:37:43,444][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/NE Cohort and CRS cross-sectional Data/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 2 / 2, 100%, Listed 43
+Elapsed time:         0.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                37 / 37, 100%, Listed 90
+Elapsed time:         0.9s
+[2026-06-05 12:37:45,852][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Madagascar Cohort Data/Chicken Project/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Madagascar Cohort Data/Chicken Project/4. Datasets
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 0 / 0, -, Listed 28
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                26 / 26, 100%, Listed 54
+Elapsed time:         0.9s
+[2026-06-05 12:37:48,413][google_drive_prospector.cli][INFO] - Sync complete in 388.73 seconds
