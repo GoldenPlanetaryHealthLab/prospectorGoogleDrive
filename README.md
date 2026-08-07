@@ -1,0 +1,22 @@
+---
+title: "Google Drive Rclone Prospector"
+---
+
+## Sync Google Drive to FASRC
+
+This prospector is designed to sync the Golden Lab Google Drive to FASRC using `rclone`. 
+It is implemented as a Python wrapper around the `rclone` command line tool, which allows 
+us to manage configuration and logs more easily. The original script was written in bash, 
+but this Python wrapper provides a more extensible and maintainable solution for our 
+syncing needs.
+
+The `scrontab` for this sync is set to run every day at 2am:
+
+```shell
+0 2 * * * /n/holylabs/LABS/cgolden_lab/Lab/frontier/works/prospectors/prospectorGoogleDrive/scripts/run_prospector.sh
+```
+
+Since this is an automated tool, we include logging to track the sync
+and re-render the documentation to see the last successful logs.
+
+{{< include notebooks/parse_logs.qmd >}}
