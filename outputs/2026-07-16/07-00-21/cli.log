@@ -1,0 +1,3 @@
+[2026-07-16 07:00:21,222][google_drive_prospector.cli][INFO] - Starting sync: csph-googledrive:2. Projects -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone
+[2026-07-16 07:00:21,222][google_drive_prospector.cli][INFO] - rclone is available.
+[2026-07-16 07:09:53,910][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Madagascar/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Climate-Smart Public Health - Madagascar/4. Datasets

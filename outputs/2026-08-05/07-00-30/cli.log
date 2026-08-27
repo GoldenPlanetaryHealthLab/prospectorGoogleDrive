@@ -1,0 +1,6 @@
+[2026-08-05 07:00:30,776][google_drive_prospector.cli][INFO] - Starting sync: csph-googledrive:2. Projects -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone
+[2026-08-05 07:00:30,777][google_drive_prospector.cli][INFO] - rclone is available.
+[2026-08-05 07:10:03,239][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Fisheries and Food Security/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Fisheries and Food Security/4. Datasets
+[2026-08-05 07:10:04,842][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Aquatic Food Composition Database/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Aquatic Food Composition Database/4. Datasets
+[2026-08-05 07:10:07,303][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Indonesia/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Indonesia/4. Datasets
+[2026-08-05 07:10:08,543][google_drive_prospector.cli][INFO] - Copying: csph-googledrive:2. Projects/Climate-Smart Public Health - Madagascar/4. Datasets -> /n/holylabs/LABS/cgolden_lab/Lab/frontier/gold_mine/01_ore/golden_googledrive_rclone/Climate-Smart Public Health - Madagascar/4. Datasets
